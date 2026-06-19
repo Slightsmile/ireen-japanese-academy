@@ -15,7 +15,7 @@ const translations = {
     /* Hero */
     'hero.badge': "Bangladesh's Premier Japanese Institute",
     'hero.title': 'Start Your Journey<br>to <span>Japan</span><br>with Confidence',
-    'hero.subtitle': 'IREEN Japanese Language Academy helps Bangladeshi students master Japanese language, prepare for JLPT examinations, and receive complete guidance for studying and working in Japan.',
+    'hero.subtitle': 'IRIN Japanese Language Academy helps Bangladeshi students master Japanese language, prepare for JLPT examinations, and receive complete guidance for studying and working in Japan.',
     'hero.cta.primary': '✦ Enroll Now',
     'hero.cta.secondary': 'Explore Courses →',
     'hero.stat.students': 'Students',
@@ -29,7 +29,7 @@ const translations = {
 
     /* Why */
     'why.label': 'Our Strengths',
-    'why.title': 'Why Students Choose IREEN',
+    'why.title': 'Why Students Choose IRIN',
     'why.subtitle': 'We combine expert instruction, structured curriculum, and personalized guidance to give every student the best chance at success in Japan.',
     'why.card1.title': 'Japanese Language Training',
     'why.card1.text': 'Learn Japanese from beginner to advanced levels with structured classroom learning designed for rapid progress.',
@@ -43,7 +43,7 @@ const translations = {
     /* About */
     'about.label': 'About the Academy',
     'about.title': 'Where Dedication Meets Direction',
-    'about.subtitle': 'IREEN Japanese Language Academy is a Bangladesh-based institution dedicated to helping students achieve their dream of studying and working in Japan.',
+    'about.subtitle': 'IRIN Japanese Language Academy is a Bangladesh-based institution dedicated to helping students achieve their dream of studying and working in Japan.',
     'about.body': 'Our mission is to build confident Japanese speakers through disciplined learning, experienced instructors, practical communication, and deep cultural understanding. Every student who walks through our doors receives structured guidance — from their first Japanese alphabet to their first day in Japan.',
     'about.f1': 'Experienced Teachers',
     'about.f2': 'Modern Classrooms',
@@ -114,7 +114,7 @@ const translations = {
     'japan.c7.text': 'We assist students in identifying and applying for scholarships including MEXT and other government-funded programs.',
     'japan.c8.title': 'Pre-Departure Support',
     'japan.c8.text': 'Cultural orientation, travel preparation, and practical tips to help you settle smoothly into life in Japan.',
-    'japan.disclaimer': '<strong>Important Disclaimer:</strong> Visa approval is solely determined by the Embassy of Japan and relevant Japanese immigration authorities. IREEN Japanese Language Academy provides guidance and document support but cannot guarantee visa outcomes. All decisions regarding visa issuance rest exclusively with the Embassy of Japan.',
+    'japan.disclaimer': '<strong>Important Disclaimer:</strong> Visa approval is solely determined by the Embassy of Japan and relevant Japanese immigration authorities. IRIN Japanese Language Academy provides guidance and document support but cannot guarantee visa outcomes. All decisions regarding visa issuance rest exclusively with the Embassy of Japan.',
 
     /* Facilities */
     'fac.label': 'What We Offer',
@@ -139,11 +139,11 @@ const translations = {
     /* Testimonials */
     'test.label': 'Success Stories',
     'test.title': 'What Our Students Say',
-    'test.subtitle': 'Hear from students who began their journey at IREEN and are now living their dreams in Japan.',
+    'test.subtitle': 'Hear from students who began their journey at IRIN and are now living their dreams in Japan.',
 
     /* Gallery */
     'gal.label': 'Gallery',
-    'gal.title': 'Life at IREEN',
+    'gal.title': 'Life at IRIN',
     'gal.subtitle': 'A glimpse inside our classrooms, events, culture days, and the journeys of our students.',
     'gal.1': '📚 Classroom', 'gal.2': '🗾 JLPT Preparation', 'gal.3': '✈️ Tokyo, Japan',
     'gal.4': '👥 Student Activities', 'gal.5': '🎌 Japanese Culture Day', 'gal.6': '🎓 Graduation',
@@ -151,10 +151,10 @@ const translations = {
     /* FAQ */
     'faq.label': 'FAQ',
     'faq.title': 'Frequently Asked Questions',
-    'faq.subtitle': 'Answers to the most common questions from students and parents considering IREEN.',
+    'faq.subtitle': 'Answers to the most common questions from students and parents considering IRIN.',
     'faq.q1': 'How long is each course?',
     'faq.a1': 'Each course (N5, N4, N3) runs for approximately 3 months. Courses include in-class sessions, study materials, weekly assessments, and mock examinations. Students are encouraged to continue to the next level upon successful completion.',
-    'faq.q2': 'Can complete beginners join IREEN?',
+    'faq.q2': 'Can complete beginners join IRIN?',
     'faq.a2': 'Absolutely. Our N5 course is specifically designed for students with zero prior knowledge of Japanese. We begin with the very basics — Hiragana and Katakana — and progress systematically at a pace suitable for all learners.',
     'faq.q3': 'Do you help with university admission in Japan?',
     'faq.a3': 'Yes. We provide comprehensive support for Japan university admission including university selection, application preparation, document guidance, and pre-departure orientation. Our team has successfully guided over 120 students to universities and language schools across Japan.',
@@ -162,25 +162,25 @@ const translations = {
     'faq.a4': 'Yes. JLPT preparation is a core part of our N5, N4, and N3 courses. We conduct regular mock exams, timed practice sessions, and exam technique coaching to ensure students are fully prepared for the official JLPT examinations.',
     'faq.q5': 'Do you provide visa guidance?',
     'faq.a5': 'We provide structured guidance throughout the student visa application process including document preparation, application review, and embassy interview coaching. Please note that visa approval is the sole decision of the Embassy of Japan and we cannot guarantee visa outcomes.',
-    'faq.q6': 'What documents are required for admission to IREEN?',
-    'faq.a6': 'For enrollment at IREEN, students typically need: a copy of their National ID or Birth Certificate, passport-size photographs, academic certificates (SSC/HSC or equivalent), and a completed enrollment form. Contact us directly for the most current admission requirements.',
+    'faq.q6': 'What documents are required for admission to IRIN?',
+    'faq.a6': 'For enrollment at IRIN, students typically need: a copy of their National ID or Birth Certificate, passport-size photographs, academic certificates (SSC/HSC or equivalent), and a completed enrollment form. Contact us directly for the most current admission requirements.',
 
     /* Principal */
     'prin.label': "Principal's Message",
     'prin.title': 'Welcome from the Principal',
-    'prin.speech': 'Welcome to IREEN Japanese Language Academy.<br><br>We believe that learning Japanese is more than mastering a language — it is the first step toward a brighter future in Japan. Our mission is to provide disciplined, high-quality education, practical communication skills, and honest guidance so every student can confidently pursue higher education and career opportunities abroad.<br><br>At IREEN, we are committed to creating an inspiring learning environment where dedication, integrity, and excellence shape every student\'s journey.<br><br>I warmly welcome you to become a part of our academy and begin your path toward success in Japan.',
-    'prin.role': 'Principal · IREEN Japanese Language Academy',
+    'prin.speech': 'Welcome to IRIN Japanese Language Academy.<br><br>We believe that learning Japanese is more than mastering a language — it is the first step toward a brighter future in Japan. Our mission is to provide disciplined, high-quality education, practical communication skills, and honest guidance so every student can confidently pursue higher education and career opportunities abroad.<br><br>At IRIN, we are committed to creating an inspiring learning environment where dedication, integrity, and excellence shape every student\'s journey.<br><br>I warmly welcome you to become a part of our academy and begin your path toward success in Japan.',
+    'prin.role': 'Principal · IRIN Japanese Language Academy',
 
     /* Contact */
     'con.label': 'Get in Touch',
     'con.title': 'Contact & Admission',
     'con.subtitle': "Ready to begin your Japanese journey? Reach out to us today and we'll guide you through your first steps.",
     'con.addr.label': 'Address',
-    'con.addr.val': 'IREEN Japanese Language Academy<br>Dhaka, Bangladesh',
+    'con.addr.val': 'IRIN Japanese Language Academy<br>Dhaka, Bangladesh',
     'con.phone.label': 'Phone',
     'con.phone.val': '+880 1XXX-XXXXXX',
     'con.email.label': 'Email',
-    'con.email.val': 'info@ireenjapanese.com',
+    'con.email.val': 'info@irinjapanese.com',
     'con.hours.label': 'Office Hours',
     'con.hours.val': 'Saturday – Thursday: 9:00 AM – 8:00 PM',
     'con.wa': '💬 WhatsApp',
@@ -214,8 +214,8 @@ const translations = {
     'foot.c4': 'Study in Japan', 'foot.c5': 'Visa Guidance', 'foot.c6': 'Scholarship Info',
     'foot.contact': 'Contact',
     'foot.addr': '📍 Dhaka, Bangladesh', 'foot.phone': '📞 +880 1XXX-XXXXXX',
-    'foot.email': '✉️ info@ireenjapanese.com', 'foot.hours': '🕐 Sat–Thu, 9AM–8PM',
-    'foot.copy': '© 2026 IREEN Japanese Language Academy. All Rights Reserved.',
+    'foot.email': '✉️ info@irinjapanese.com', 'foot.hours': '🕐 Sat–Thu, 9AM–8PM',
+    'foot.copy': '© 2026 IRIN Japanese Language Academy. All Rights Reserved.',
     'foot.tagline': '一緒に日本へ · Together to Japan',
     'foot.design': 'Designed with ❤️ for aspiring students',
     'scrolltop': '↑',
@@ -399,7 +399,7 @@ const translations = {
     'con.phone.label': 'ফোন',
     'con.phone.val': '+880 1XXX-XXXXXX',
     'con.email.label': 'ইমেইল',
-    'con.email.val': 'info@ireenjapanese.com',
+    'con.email.val': 'info@irinjapanese.com',
     'con.hours.label': 'অফিস সময়',
     'con.hours.val': 'শনিবার – বৃহস্পতিবার: সকাল ৯টা – রাত ৮টা',
     'con.wa': '💬 হোয়াটসঅ্যাপ',
@@ -433,7 +433,7 @@ const translations = {
     'foot.c4': 'জাপানে পড়াশোনা', 'foot.c5': 'ভিসা গাইডেন্স', 'foot.c6': 'বৃত্তির তথ্য',
     'foot.contact': 'যোগাযোগ',
     'foot.addr': '📍 ঢাকা, বাংলাদেশ', 'foot.phone': '📞 +880 1XXX-XXXXXX',
-    'foot.email': '✉️ info@ireenjapanese.com', 'foot.hours': '🕐 শনি–বৃহস্পতি, সকাল ৯টা–রাত ৮টা',
+    'foot.email': '✉️ info@irinjapanese.com', 'foot.hours': '🕐 শনি–বৃহস্পতি, সকাল ৯টা–রাত ৮টা',
     'foot.copy': '© ২০২৬ আইরিন জাপানিজ ল্যাঙ্গুয়েজ একাডেমি। সর্বস্বত্ব সংরক্ষিত।',
     'foot.tagline': '一緒に日本へ · একসাথে জাপানে',
     'foot.design': 'স্বপ্নবাজ শিক্ষার্থীদের জন্য ❤️ দিয়ে ডিজাইন করা হয়েছে',
@@ -453,7 +453,7 @@ const translations = {
     /* Hero */
     'hero.badge': 'バングラデシュ最高峰の日本語学院',
     'hero.title': '自信を持って<br><span>日本</span>への<br>旅を始めよう',
-    'hero.subtitle': 'IREENジャパニーズランゲージアカデミーは、バングラデシュの学生が日本語を習得し、JLPT試験に備え、日本での留学・就労のための完全なガイダンスを受けられるよう支援します。',
+    'hero.subtitle': 'IRINジャパニーズランゲージアカデミーは、バングラデシュの学生が日本語を習得し、JLPT試験に備え、日本での留学・就労のための完全なガイダンスを受けられるよう支援します。',
     'hero.cta.primary': '✦ 今すぐ入学',
     'hero.cta.secondary': 'コースを見る →',
     'hero.stat.students': '受講生',
@@ -467,7 +467,7 @@ const translations = {
 
     /* Why */
     'why.label': '私たちの強み',
-    'why.title': 'なぜ学生はIREENを選ぶのか',
+    'why.title': 'なぜ学生はIRINを選ぶのか',
     'why.subtitle': '専門的な指導、体系的なカリキュラム、個別ガイダンスを組み合わせ、すべての学生が日本で成功できる最善の機会を提供します。',
     'why.card1.title': '日本語トレーニング',
     'why.card1.text': '体系的な授業を通じて、初級から上級まで日本語を学べます。',
@@ -481,7 +481,7 @@ const translations = {
     /* About */
     'about.label': 'アカデミーについて',
     'about.title': '情熱と方向性が出会う場所',
-    'about.subtitle': 'IREENジャパニーズランゲージアカデミーは、バングラデシュを拠点とする教育機関で、学生が日本で学び、働く夢を実現できるよう支援します。',
+    'about.subtitle': 'IRINジャパニーズランゲージアカデミーは、バングラデシュを拠点とする教育機関で、学生が日本で学び、働く夢を実現できるよう支援します。',
     'about.body': '私たちの使命は、規律ある学習、経験豊富な講師、実践的なコミュニケーション、深い文化理解を通じて、自信を持って日本語を話せる人材を育てることです。',
     'about.f1': '経験豊富な教師陣',
     'about.f2': '近代的な教室',
@@ -552,7 +552,7 @@ const translations = {
     'japan.c7.text': 'MEXT奨学金などの政府プログラムの奨学金特定・申請を支援します。',
     'japan.c8.title': '渡航前サポート',
     'japan.c8.text': '文化オリエンテーション、渡航準備、日本での生活にスムーズに馴染むための実践的なヒント。',
-    'japan.disclaimer': '<strong>重要なお知らせ：</strong>ビザの承認はすべて日本大使館および関連する日本の入管当局によって決定されます。IREENジャパニーズランゲージアカデミーはガイダンスと書類サポートを提供しますが、ビザの結果を保証することはできません。',
+    'japan.disclaimer': '<strong>重要なお知らせ：</strong>ビザの承認はすべて日本大使館および関連する日本の入管当局によって決定されます。IRINジャパニーズランゲージアカデミーはガイダンスと書類サポートを提供しますが、ビザの結果を保証することはできません。',
 
     /* Facilities */
     'fac.label': '提供サービス',
@@ -577,11 +577,11 @@ const translations = {
     /* Testimonials */
     'test.label': '成功事例',
     'test.title': '学生の声',
-    'test.subtitle': 'IREENで夢をスタートさせ、今まさに日本で夢を叶えている学生たちの声をお聞きください。',
+    'test.subtitle': 'IRINで夢をスタートさせ、今まさに日本で夢を叶えている学生たちの声をお聞きください。',
 
     /* Gallery */
     'gal.label': 'ギャラリー',
-    'gal.title': 'IREENの日常',
+    'gal.title': 'IRINの日常',
     'gal.subtitle': '授業、イベント、文化の日、そして学生たちの旅の一コマをご覧ください。',
     'gal.1': '📚 教室', 'gal.2': '🗾 JLPT対策', 'gal.3': '✈️ 東京、日本',
     'gal.4': '👥 学生活動', 'gal.5': '🎌 日本文化デー', 'gal.6': '🎓 卒業式',
@@ -589,10 +589,10 @@ const translations = {
     /* FAQ */
     'faq.label': 'よくある質問',
     'faq.title': 'よくある質問',
-    'faq.subtitle': 'IREENを検討している学生や保護者からよく寄せられる質問への回答です。',
+    'faq.subtitle': 'IRINを検討している学生や保護者からよく寄せられる質問への回答です。',
     'faq.q1': 'コースの期間はどれくらいですか？',
     'faq.a1': '各コース（N5、N4、N3）は約3ヶ月間です。授業、学習教材、週次評価、模擬試験が含まれます。修了後は次のレベルへの進学をお勧めします。',
-    'faq.q2': '全くの初心者でもIREENに入学できますか？',
+    'faq.q2': '全くの初心者でもIRINに入学できますか？',
     'faq.a2': 'はい。N5コースは日本語の事前知識がゼロの学生向けに特別に設計されています。ひらがなとカタカナという基礎から始め、すべての学習者に適したペースで体系的に進みます。',
     'faq.q3': '日本の大学入学支援はしていますか？',
     'faq.a3': 'はい。大学選定、出願準備、書類ガイダンス、渡航前オリエンテーションを含む包括的な入学サポートを提供しています。',
@@ -600,25 +600,25 @@ const translations = {
     'faq.a4': 'はい。JLPT対策はN5、N4、N3コースの核心部分です。模擬試験、時間制限練習、試験テクニックのコーチングを定期的に実施しています。',
     'faq.q5': 'ビザのガイダンスはしていますか？',
     'faq.a5': '留学ビザ申請プロセス全体を通じて構造的なガイダンスを提供します。なお、ビザ承認はすべて日本大使館の決定であり、結果を保証することはできません。',
-    'faq.q6': 'IREENへの入学に必要な書類は何ですか？',
+    'faq.q6': 'IRINへの入学に必要な書類は何ですか？',
     'faq.a6': '一般的に必要なものは、国民IDまたは出生証明書のコピー、証明写真、学歴証明書（SSC/HSCまたは同等）、記入済みの入学願書です。最新の入学要件については直接お問い合わせください。',
 
     /* Principal */
     'prin.label': '校長のメッセージ',
     'prin.title': '校長からのご挨拶',
-    'prin.speech': 'IREENジャパニーズランゲージアカデミーへようこそ。<br><br>私たちは、日本語を学ぶことは単に言語を習得すること以上のものだと信じています — それは日本でのより明るい未来への第一歩です。私たちの使命は、すべての学生が自信を持って高等教育やキャリアの機会を海外で追求できるよう、規律ある高品質な教育、実践的なコミュニケーションスキル、誠実なガイダンスを提供することです。<br><br>IREENでは、献身、誠実さ、卓越性がすべての学生の旅を形成する、インスピレーションに満ちた学習環境を作ることに取り組んでいます。<br><br>皆さんが私たちのアカデミーの一員となり、日本での成功への道を歩み始めることを心よりお待ちしています。',
-    'prin.role': '校長 · IREENジャパニーズランゲージアカデミー',
+    'prin.speech': 'IRINジャパニーズランゲージアカデミーへようこそ。<br><br>私たちは、日本語を学ぶことは単に言語を習得すること以上のものだと信じています — それは日本でのより明るい未来への第一歩です。私たちの使命は、すべての学生が自信を持って高等教育やキャリアの機会を海外で追求できるよう、規律ある高品質な教育、実践的なコミュニケーションスキル、誠実なガイダンスを提供することです。<br><br>IRINでは、献身、誠実さ、卓越性がすべての学生の旅を形成する、インスピレーションに満ちた学習環境を作ることに取り組んでいます。<br><br>皆さんが私たちのアカデミーの一員となり、日本での成功への道を歩み始めることを心よりお待ちしています。',
+    'prin.role': '校長 · IRINジャパニーズランゲージアカデミー',
 
     /* Contact */
     'con.label': 'お問い合わせ',
     'con.title': 'お問い合わせ・入学',
     'con.subtitle': '日本語学習を始める準備はできていますか？今すぐご連絡ください。最初のステップをご案内します。',
     'con.addr.label': '住所',
-    'con.addr.val': 'IREENジャパニーズランゲージアカデミー<br>ダッカ、バングラデシュ',
+    'con.addr.val': 'IRINジャパニーズランゲージアカデミー<br>ダッカ、バングラデシュ',
     'con.phone.label': '電話',
     'con.phone.val': '+880 1XXX-XXXXXX',
     'con.email.label': 'メール',
-    'con.email.val': 'info@ireenjapanese.com',
+    'con.email.val': 'info@irinjapanese.com',
     'con.hours.label': '営業時間',
     'con.hours.val': '土曜日〜木曜日：午前9時〜午後8時',
     'con.wa': '💬 WhatsApp',
@@ -652,8 +652,8 @@ const translations = {
     'foot.c4': '日本留学', 'foot.c5': 'ビザガイダンス', 'foot.c6': '奨学金情報',
     'foot.contact': 'お問い合わせ',
     'foot.addr': '📍 ダッカ、バングラデシュ', 'foot.phone': '📞 +880 1XXX-XXXXXX',
-    'foot.email': '✉️ info@ireenjapanese.com', 'foot.hours': '🕐 土〜木、9AM〜8PM',
-    'foot.copy': '© 2026 IREENジャパニーズランゲージアカデミー。全著作権所有。',
+    'foot.email': '✉️ info@irinjapanese.com', 'foot.hours': '🕐 土〜木、9AM〜8PM',
+    'foot.copy': '© 2026 IRINジャパニーズランゲージアカデミー。全著作権所有。',
     'foot.tagline': '一緒に日本へ · Together to Japan',
     'foot.design': '志ある学生のために ❤️ を込めてデザイン',
     'scrolltop': '↑',
