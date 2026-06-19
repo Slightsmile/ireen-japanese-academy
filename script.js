@@ -719,6 +719,10 @@ function closeMobile() {
   mobileMenu.classList.remove('open');
 }
 
+document.querySelectorAll('.mobile-menu a').forEach(link => {
+  link.addEventListener('click', closeMobile);
+});
+
 /* ===========================
    SCROLL REVEAL
 =========================== */
