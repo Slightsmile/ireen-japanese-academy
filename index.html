@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IREEN Japanese Language Academy — Your Gateway to Japan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=Noto+Serif+JP:wght@300;400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">語</div>
+        <div class="nav-logo-text">
+          <span class="nav-logo-name">IREEN</span>
+          <span class="nav-logo-sub">Japanese Language Academy</span>
+        </div>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#courses" data-i18n="nav.courses">Courses</a>
+        <a href="#japan" data-i18n="nav.japan">Study in Japan</a>
+        <a href="#facilities" data-i18n="nav.facilities">Facilities</a>
+        <a href="#gallery" data-i18n="nav.gallery">Gallery</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </div>
+
+      <div class="nav-right">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="bn">বাং</button>
+          <button class="lang-btn" data-lang="jp">日本</button>
+        </div>
+        <a href="#contact" class="btn btn-primary nav-enroll" data-i18n="nav.enroll">Enroll Now</a>
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMobile()" data-i18n="nav.about">About</a>
+  <a href="#courses" onclick="closeMobile()" data-i18n="nav.courses">Courses</a>
+  <a href="#japan" onclick="closeMobile()" data-i18n="nav.japan">Study in Japan</a>
+  <a href="#facilities" onclick="closeMobile()" data-i18n="nav.facilities">Facilities</a>
+  <a href="#gallery" onclick="closeMobile()" data-i18n="nav.gallery">Gallery</a>
+  <a href="#faq" onclick="closeMobile()" data-i18n="faq.label">FAQ</a>
+  <a href="#contact" onclick="closeMobile()" data-i18n="nav.contact">Contact</a>
+  <div style="margin-top:20px; display:flex; gap:8px;">
+    <a href="#contact" class="btn btn-primary" style="flex:1; justify-content:center;" onclick="closeMobile()" data-i18n="nav.enroll">Enroll Now</a>
+  </div>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<section id="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-jp-text">日本語<br>学習</div>
+
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <h1 class="hero-title" data-i18n-html="hero.title">
+          Start Your Journey<br>
+          to <span>Japan</span><br>
+          with Confidence
+        </h1>
+
+        <p class="hero-subtitle" data-i18n="hero.subtitle">
+          IREEN Japanese Language Academy helps Bangladeshi students master Japanese language, prepare for JLPT examinations, and receive complete guidance for studying and working in Japan.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.cta.primary">
+            ✦ Enroll Now
+          </a>
+          <a href="#courses" class="btn btn-ghost-white" data-i18n="hero.cta.secondary">
+            Explore Courses →
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-num"><span class="counter" data-target="500">0</span><span class="suffix">+</span></div>
+            <div class="hero-stat-label" data-i18n="hero.stat.students">Students</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num"><span class="counter" data-target="95">0</span><span class="suffix">%</span></div>
+            <div class="hero-stat-label" data-i18n="hero.stat.jlpt">JLPT Success</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num"><span class="counter" data-target="12">0</span><span class="suffix">+</span></div>
+            <div class="hero-stat-label" data-i18n="hero.stat.teachers">Expert Teachers</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num"><span class="counter" data-target="5">0</span><span class="suffix">+</span></div>
+            <div class="hero-stat-label" data-i18n="hero.stat.years">Years of Excellence</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <div class="hero-jp-accent">語</div>
+
+        <div class="hero-image-main">
+          <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80" alt="Japanese Language Classroom" loading="eager">
+        </div>
+
+        <div class="hero-float-card card-1">
+          <div class="float-icon red">🎌</div>
+          <div class="float-text-wrap">
+            <div class="float-title" data-i18n="hero.float1.title">JLPT Certified</div>
+            <div class="float-sub" data-i18n="hero.float1.sub">N5 · N4 · N3 Preparation</div>
+          </div>
+        </div>
+
+        <div class="hero-float-card card-2">
+          <div class="float-icon gold">✈️</div>
+          <div class="float-text-wrap">
+            <div class="float-title" data-i18n="hero.float2.title">Study in Japan</div>
+            <div class="float-sub" data-i18n="hero.float2.sub">Full guidance &amp; support</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY CHOOSE ===================== -->
+<section id="why" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="why.label">Our Strengths</div>
+      <h2 class="section-title" data-i18n="why.title">Why Students Choose IREEN</h2>
+      <p class="section-subtitle" data-i18n="why.subtitle">We combine expert instruction, structured curriculum, and personalized guidance to give every student the best chance at success in Japan.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal reveal-delay-1">
+        <div class="why-icon">🗾</div>
+        <h3 class="why-card-title" data-i18n="why.card1.title">Japanese Language Training</h3>
+        <p class="why-card-text" data-i18n="why.card1.text">Learn Japanese from beginner to advanced levels with structured classroom learning designed for rapid progress.</p>
+        <div class="why-jp-num">語</div>
+      </div>
+      <div class="why-card reveal reveal-delay-2">
+        <div class="why-icon">🎓</div>
+        <h3 class="why-card-title" data-i18n="why.card2.title">Study in Japan Guidance</h3>
+        <p class="why-card-text" data-i18n="why.card2.text">Complete support for university admission, documentation preparation, and all steps toward studying abroad.</p>
+        <div class="why-jp-num">学</div>
+      </div>
+      <div class="why-card reveal reveal-delay-3">
+        <div class="why-icon">📋</div>
+        <h3 class="why-card-title" data-i18n="why.card3.title">JLPT Preparation</h3>
+        <p class="why-card-text" data-i18n="why.card3.text">Focused, exam-oriented preparation for JLPT N5, N4, and N3 with mock exams and dedicated practice sessions.</p>
+        <div class="why-jp-num">試</div>
+      </div>
+      <div class="why-card reveal reveal-delay-4">
+        <div class="why-icon">👥</div>
+        <h3 class="why-card-title" data-i18n="why.card4.title">Small Batch Classes</h3>
+        <p class="why-card-text" data-i18n="why.card4.text">Limited seats per batch ensure each student receives personal attention and effective one-on-one interaction.</p>
+        <div class="why-jp-num">人</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap reveal">
+        <div class="about-jp-accent">校</div>
+        <div class="about-image-main">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=700&q=80" alt="IREEN Classroom" loading="lazy">
+        </div>
+        <div class="about-image-badge">
+          <div class="about-badge-num">5+</div>
+          <div class="about-badge-text" data-i18n="about.badge">Years of Excellence</div>
+        </div>
+      </div>
+
+      <div class="about-text reveal reveal-delay-2">
+        <div class="section-label" data-i18n="about.label">About the Academy</div>
+        <h2 class="section-title" data-i18n="about.title">Where Dedication Meets Direction</h2>
+        <p class="section-subtitle" style="max-width:100%;" data-i18n="about.subtitle">
+          IREEN Japanese Language Academy is a Bangladesh-based institution dedicated to helping students achieve their dream of studying and working in Japan.
+        </p>
+        <p style="font-size:0.9rem; color:var(--mid-text); line-height:2; margin-top:16px;" data-i18n="about.body">
+          Our mission is to build confident Japanese speakers through disciplined learning, experienced instructors, practical communication, and deep cultural understanding. Every student who walks through our doors receives structured guidance — from their first Japanese alphabet to their first day in Japan.
+        </p>
+
+        <div class="about-features">
+          <div class="about-feature" data-i18n="about.f1">Experienced Teachers</div>
+          <div class="about-feature" data-i18n="about.f2">Modern Classrooms</div>
+          <div class="about-feature" data-i18n="about.f3">Japanese Curriculum</div>
+          <div class="about-feature" data-i18n="about.f4">Career Guidance</div>
+          <div class="about-feature" data-i18n="about.f5">Study Abroad Support</div>
+          <div class="about-feature" data-i18n="about.f6">Small Batch Learning</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== COURSES ===================== -->
+<section id="courses" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="courses.label">Our Programs</div>
+      <h2 class="section-title" data-i18n="courses.title">Japanese Language Courses</h2>
+      <p class="section-subtitle" style="color:rgba(255,255,255,0.65);" data-i18n="courses.subtitle">From your first Hiragana to professional communication — we have a course for every stage of your Japanese journey.</p>
+    </div>
+
+    <div class="courses-grid">
+      <!-- N5 -->
+      <div class="course-card reveal reveal-delay-1">
+        <div class="course-img">
+          <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80" alt="N5 Japanese Course" loading="lazy">
+          <div class="course-level-badge">JLPT N5</div>
+        </div>
+        <div class="course-body">
+          <div class="course-sub" data-i18n="n5.level">Beginner Level</div>
+          <h3 class="course-name" data-i18n="n5.name">N5 — Foundation Course</h3>
+          <div class="course-topics">
+            <span class="course-topic" data-i18n="n5.t1">Hiragana</span>
+            <span class="course-topic" data-i18n="n5.t2">Katakana</span>
+            <span class="course-topic" data-i18n="n5.t3">Basic Grammar</span>
+            <span class="course-topic" data-i18n="n5.t4">Conversation</span>
+          </div>
+          <div class="course-meta">
+            <div class="course-duration" data-i18n="n5.duration">⏱ 3 Months</div>
+            <div class="course-schedule" data-i18n="n5.schedule">Evening &amp; Weekend batches</div>
+          </div>
+          <a href="#contact" class="btn course-enroll" data-i18n="n5.enroll">Enroll in N5 Course</a>
+        </div>
+      </div>
+
+      <!-- N4 -->
+      <div class="course-card reveal reveal-delay-2">
+        <div class="course-img">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80" alt="N4 Japanese Course" loading="lazy">
+          <div class="course-level-badge">JLPT N4</div>
+        </div>
+        <div class="course-body">
+          <div class="course-sub" data-i18n="n4.level">Intermediate Level</div>
+          <h3 class="course-name" data-i18n="n4.name">N4 — Intermediate Course</h3>
+          <div class="course-topics">
+            <span class="course-topic" data-i18n="n4.t1">Grammar</span>
+            <span class="course-topic" data-i18n="n4.t2">Kanji</span>
+            <span class="course-topic" data-i18n="n4.t3">Speaking</span>
+            <span class="course-topic" data-i18n="n4.t4">Listening</span>
+          </div>
+          <div class="course-meta">
+            <div class="course-duration" data-i18n="n4.duration">⏱ 3 Months</div>
+            <div class="course-schedule" data-i18n="n4.schedule">Morning &amp; Evening batches</div>
+          </div>
+          <a href="#contact" class="btn course-enroll" data-i18n="n4.enroll">Enroll in N4 Course</a>
+        </div>
+      </div>
+
+      <!-- N3 -->
+      <div class="course-card reveal reveal-delay-3">
+        <div class="course-img">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80" alt="N3 Japanese Course" loading="lazy">
+          <div class="course-level-badge">JLPT N3</div>
+        </div>
+        <div class="course-body">
+          <div class="course-sub" data-i18n="n3.level">Advanced Level</div>
+          <h3 class="course-name" data-i18n="n3.name">N3 — Advanced Course</h3>
+          <div class="course-topics">
+            <span class="course-topic" data-i18n="n3.t1">Professional Japanese</span>
+            <span class="course-topic" data-i18n="n3.t2">Business Comm.</span>
+            <span class="course-topic" data-i18n="n3.t3">Interview Skills</span>
+            <span class="course-topic" data-i18n="n3.t4">JLPT Practice</span>
+          </div>
+          <div class="course-meta">
+            <div class="course-duration" data-i18n="n3.duration">⏱ 3 Months</div>
+            <div class="course-schedule" data-i18n="n3.schedule">Flexible batches available</div>
+          </div>
+          <a href="#contact" class="btn course-enroll" data-i18n="n3.enroll">Enroll in N3 Course</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== METHODOLOGY ===================== -->
+<section id="methodology" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="method.label">Our Approach</div>
+      <h2 class="section-title" data-i18n="method.title">Learning Methodology</h2>
+      <p class="section-subtitle" data-i18n="method.subtitle">A structured, step-by-step pathway from zero knowledge to Japan-ready proficiency — designed for Bangladeshi learners.</p>
+    </div>
+
+    <div class="timeline-wrap">
+      <div class="timeline-line"></div>
+      <div class="timeline-items">
+        <div class="timeline-item reveal">
+          <div class="timeline-content">
+            <div class="timeline-step-num" data-i18n="step1.num">Step 01</div>
+            <div class="timeline-step-title" data-i18n="step1.title">Japanese Alphabets</div>
+            <div class="timeline-step-desc" data-i18n="step1.desc">Master Hiragana and Katakana — the two foundational writing systems of the Japanese language.</div>
+          </div>
+          <div class="timeline-dot"><div class="timeline-dot-inner">あ</div></div>
+          <div class="timeline-empty"></div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-empty"></div>
+          <div class="timeline-dot"><div class="timeline-dot-inner">文</div></div>
+          <div class="timeline-content">
+            <div class="timeline-step-num" data-i18n="step2.num">Step 02</div>
+            <div class="timeline-step-title" data-i18n="step2.title">Grammar Foundations</div>
+            <div class="timeline-step-desc" data-i18n="step2.desc">Build a solid grammar base covering sentence structure, verb conjugation, and particles.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-content">
+            <div class="timeline-step-num" data-i18n="step3.num">Step 03</div>
+            <div class="timeline-step-title" data-i18n="step3.title">Conversation Practice</div>
+            <div class="timeline-step-desc" data-i18n="step3.desc">Develop real speaking confidence through daily dialogue practice and role-play scenarios.</div>
+          </div>
+          <div class="timeline-dot"><div class="timeline-dot-inner">話</div></div>
+          <div class="timeline-empty"></div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-empty"></div>
+          <div class="timeline-dot"><div class="timeline-dot-inner">聞</div></div>
+          <div class="timeline-content">
+            <div class="timeline-step-num" data-i18n="step4.num">Step 04</div>
+            <div class="timeline-step-title" data-i18n="step4.title">Listening Skills</div>
+            <div class="timeline-step-desc" data-i18n="step4.desc">Train your ear with native audio content, news excerpts, and comprehension exercises.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-content">
+            <div class="timeline-step-num" data-i18n="step5.num">Step 05</div>
+            <div class="timeline-step-title" data-i18n="step5.title">JLPT Practice</div>
+            <div class="timeline-step-desc" data-i18n="step5.desc">Intensive mock exams and timed practice under real JLPT examination conditions.</div>
+          </div>
+          <div class="timeline-dot"><div class="timeline-dot-inner">試</div></div>
+          <div class="timeline-empty"></div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-empty"></div>
+          <div class="timeline-dot"><div class="timeline-dot-inner">面</div></div>
+          <div class="timeline-content">
+            <div class="timeline-step-num" data-i18n="step6.num">Step 06</div>
+            <div class="timeline-step-title" data-i18n="step6.title">Interview Preparation</div>
+            <div class="timeline-step-desc" data-i18n="step6.desc">Practice university and employer interview scenarios with expert coaching and feedback.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-content" style="border: 2px solid var(--red); background: rgba(220,38,38,0.04);">
+            <div class="timeline-step-num" style="color:var(--navy); font-size:0.85rem; font-weight:800;" data-i18n="step7.num">🎌 Final Step</div>
+            <div class="timeline-step-title" style="color:var(--red);" data-i18n="step7.title">Japan Ready!</div>
+            <div class="timeline-step-desc" data-i18n="step7.desc">Graduate with certified language skills, complete documentation, and the confidence to begin your new life in Japan.</div>
+          </div>
+          <div class="timeline-dot"><div class="timeline-dot-inner" style="background:var(--red); color:white; border-color:var(--red);">✓</div></div>
+          <div class="timeline-empty"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STUDY IN JAPAN ===================== -->
+<section id="japan" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="japan.label">Study Abroad</div>
+      <h2 class="section-title" data-i18n="japan.title">Study in Japan</h2>
+      <p class="section-subtitle" data-i18n="japan.subtitle">We provide end-to-end support for your academic journey — from selecting the right university to settling in Japan.</p>
+    </div>
+
+    <div class="japan-hero-img reveal" style="margin-top:50px;">
+      <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200&q=80" alt="Tokyo Japan" loading="lazy">
+      <div class="japan-hero-text">
+        <h3 data-i18n-html="japan.hero.title">Your Future<br>Awaits in Japan</h3>
+        <p data-i18n="japan.hero.sub">Complete guidance from admission to arrival</p>
+      </div>
+    </div>
+
+    <div class="japan-grid">
+      <div class="japan-card reveal reveal-delay-1">
+        <div class="japan-icon">🏫</div>
+        <h3 class="japan-card-title" data-i18n="japan.c1.title">University Admission</h3>
+        <p class="japan-card-text" data-i18n="japan.c1.text">We help you identify the right Japanese university, prepare your application, and submit all required documents on time.</p>
+      </div>
+      <div class="japan-card reveal reveal-delay-2">
+        <div class="japan-icon">🛂</div>
+        <h3 class="japan-card-title" data-i18n="japan.c2.title">Visa Guidance</h3>
+        <p class="japan-card-text" data-i18n="japan.c2.text">Step-by-step guidance through the student visa application process, ensuring all requirements are met correctly.</p>
+      </div>
+      <div class="japan-card reveal reveal-delay-3">
+        <div class="japan-icon">📄</div>
+        <h3 class="japan-card-title" data-i18n="japan.c3.title">Document Preparation</h3>
+        <p class="japan-card-text" data-i18n="japan.c3.text">Assistance preparing and organizing all necessary academic and personal documents required for your application.</p>
+      </div>
+      <div class="japan-card reveal reveal-delay-4">
+        <div class="japan-icon">🎤</div>
+        <h3 class="japan-card-title" data-i18n="japan.c4.title">Embassy Interview</h3>
+        <p class="japan-card-text" data-i18n="japan.c4.text">Thorough mock interview sessions to prepare you for your Embassy of Japan visa interview with confidence.</p>
+      </div>
+      <div class="japan-card reveal reveal-delay-1">
+        <div class="japan-icon">🏠</div>
+        <h3 class="japan-card-title" data-i18n="japan.c5.title">Accommodation Guidance</h3>
+        <p class="japan-card-text" data-i18n="japan.c5.text">Advice on student dormitories, shared housing, and accommodation options near your university in Japan.</p>
+      </div>
+      <div class="japan-card reveal reveal-delay-2">
+        <div class="japan-icon">💼</div>
+        <h3 class="japan-card-title" data-i18n="japan.c6.title">Part-time Work</h3>
+        <p class="japan-card-text" data-i18n="japan.c6.text">Information about part-time work regulations, permitted hours, and common opportunities available to international students in Japan.</p>
+      </div>
+      <div class="japan-card reveal reveal-delay-3">
+        <div class="japan-icon">🎓</div>
+        <h3 class="japan-card-title" data-i18n="japan.c7.title">Scholarship Guidance</h3>
+        <p class="japan-card-text" data-i18n="japan.c7.text">We assist students in identifying and applying for scholarships including MEXT and other government-funded programs.</p>
+      </div>
+      <div class="japan-card reveal reveal-delay-4">
+        <div class="japan-icon">✈️</div>
+        <h3 class="japan-card-title" data-i18n="japan.c8.title">Pre-Departure Support</h3>
+        <p class="japan-card-text" data-i18n="japan.c8.text">Cultural orientation, travel preparation, and practical tips to help you settle smoothly into life in Japan.</p>
+      </div>
+    </div>
+
+    <div class="japan-disclaimer reveal" style="margin-top:30px;">
+      <span>⚠️</span>
+      <span data-i18n-html="japan.disclaimer"><strong>Important Disclaimer:</strong> Visa approval is solely determined by the Embassy of Japan and relevant Japanese immigration authorities. IREEN Japanese Language Academy provides guidance and document support but cannot guarantee visa outcomes. All decisions regarding visa issuance rest exclusively with the Embassy of Japan.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FACILITIES ===================== -->
+<section id="facilities" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="fac.label">What We Offer</div>
+      <h2 class="section-title" data-i18n="fac.title">Student Facilities</h2>
+      <p class="section-subtitle" data-i18n="fac.subtitle">We invest in creating an environment where every student can learn, grow, and prepare for a successful future in Japan.</p>
+    </div>
+
+    <div class="facilities-grid">
+      <div class="facility-item reveal">
+        <div class="facility-icon">❄️</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.1.name">Air-Conditioned Classrooms</div>
+          <div class="facility-desc" data-i18n="fac.1.desc">Comfortable, modern learning spaces designed for focused study year-round.</div>
+        </div>
+      </div>
+      <div class="facility-item reveal reveal-delay-1">
+        <div class="facility-icon">📚</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.2.name">Printed Study Materials</div>
+          <div class="facility-desc" data-i18n="fac.2.desc">Professionally prepared notes, worksheets, and textbooks provided to all students.</div>
+        </div>
+      </div>
+      <div class="facility-item reveal reveal-delay-2">
+        <div class="facility-icon">📝</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.3.name">Mock Examinations</div>
+          <div class="facility-desc" data-i18n="fac.3.desc">Regular practice exams simulating real JLPT conditions to build exam readiness.</div>
+        </div>
+      </div>
+      <div class="facility-item reveal reveal-delay-3">
+        <div class="facility-icon">🎧</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.4.name">Audio Practice Sessions</div>
+          <div class="facility-desc" data-i18n="fac.4.desc">Listening comprehension practice with native Japanese audio to sharpen hearing skills.</div>
+        </div>
+      </div>
+      <div class="facility-item reveal reveal-delay-1">
+        <div class="facility-icon">🗣️</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.5.name">Native Pronunciation Practice</div>
+          <div class="facility-desc" data-i18n="fac.5.desc">Dedicated sessions to develop authentic Japanese pronunciation and intonation.</div>
+        </div>
+      </div>
+      <div class="facility-item reveal reveal-delay-2">
+        <div class="facility-icon">📊</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.6.name">Weekly Assessments</div>
+          <div class="facility-desc" data-i18n="fac.6.desc">Consistent progress tracking through weekly tests and teacher feedback sessions.</div>
+        </div>
+      </div>
+      <div class="facility-item reveal reveal-delay-3">
+        <div class="facility-icon">🌸</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.7.name">Japanese Culture Sessions</div>
+          <div class="facility-desc" data-i18n="fac.7.desc">Regular cultural activities to help students understand Japanese customs and etiquette.</div>
+        </div>
+      </div>
+      <div class="facility-item reveal reveal-delay-1">
+        <div class="facility-icon">👤</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.8.name">Small Batch Learning</div>
+          <div class="facility-desc" data-i18n="fac.8.desc">Limited class sizes ensure meaningful personal attention from every teacher.</div>
+        </div>
+      </div>
+      <div class="facility-item reveal reveal-delay-2">
+        <div class="facility-icon">🧭</div>
+        <div>
+          <div class="facility-name" data-i18n="fac.9.name">Career Counseling</div>
+          <div class="facility-desc" data-i18n="fac.9.desc">One-on-one sessions to guide students toward the right academic and career path in Japan.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STATS ===================== -->
+<section id="stats" class="section-pad">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <div class="stat-num"><span class="counter" data-target="500">0</span><span class="suffix">+</span></div>
+        <div class="stat-label" data-i18n="stat.trained">Students Trained</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <div class="stat-num"><span class="counter" data-target="95">0</span><span class="suffix">%</span></div>
+        <div class="stat-label" data-i18n="stat.passrate">JLPT Pass Rate</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <div class="stat-num"><span class="counter" data-target="120">0</span><span class="suffix">+</span></div>
+        <div class="stat-label" data-i18n="stat.injapan">Students in Japan</div>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <div class="stat-num"><span class="counter" data-target="5">0</span><span class="suffix">+</span></div>
+        <div class="stat-label" data-i18n="stat.years">Years of Excellence</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section id="testimonials" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="test.label">Success Stories</div>
+      <h2 class="section-title" data-i18n="test.title">What Our Students Say</h2>
+      <p class="section-subtitle" data-i18n="test.subtitle">Hear from students who began their journey at IREEN and are now living their dreams in Japan.</p>
+    </div>
+
+    <div class="testimonials-slider-wrap reveal">
+      <div class="testimonials-track" id="testimonialsTrack">
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">IREEN completely changed my life. I came here with no knowledge of Japanese, and within 6 months I had passed my JLPT N4 and received my student visa. The teachers are incredibly dedicated and the guidance for Japan admission was flawless.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RA</div>
+            <div>
+              <div class="testimonial-name">Rafiq Ahmed</div>
+              <div class="testimonial-role">Currently studying at Osaka Language School, Japan</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">The structured course plan made everything so clear. I never felt lost even as a complete beginner. The small class size meant my teacher knew my weaknesses and helped me improve them directly. I'm now in Tokyo pursuing my degree!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">NK</div>
+            <div>
+              <div class="testimonial-name">Nusrat Khanam</div>
+              <div class="testimonial-role">Student at Tokyo Japanese Language School</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">The JLPT preparation at IREEN is exceptional. I failed N3 twice before joining here. After just one term, I passed with a high score. The mock exams and intensive grammar sessions made the real difference. Highly recommended!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MI</div>
+            <div>
+              <div class="testimonial-name">Mehedi Islam</div>
+              <div class="testimonial-role">JLPT N3 Certified · Working in Nagoya, Japan</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">From the visa process to the embassy interview, IREEN supported me at every step. I was very nervous about the whole process, but their counselors made it easy to understand. I am grateful to the entire IREEN team.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SR</div>
+            <div>
+              <div class="testimonial-name">Sadia Rahman</div>
+              <div class="testimonial-role">University student in Fukuoka, Japan</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">The cultural sessions were something I didn't expect but found incredibly valuable. Understanding Japanese manners and customs before arriving made my first months in Japan so much smoother. IREEN prepared me for life, not just language.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">TH</div>
+            <div>
+              <div class="testimonial-name">Tanvir Hossain</div>
+              <div class="testimonial-role">Part-time worker &amp; student in Kyoto, Japan</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="slider-controls">
+      <button class="slider-btn" id="slidePrev">←</button>
+      <div class="slider-dots" id="sliderDots">
+        <div class="slider-dot active" data-index="0"></div>
+        <div class="slider-dot" data-index="1"></div>
+        <div class="slider-dot" data-index="2"></div>
+      </div>
+      <button class="slider-btn" id="slideNext">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section id="gallery" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="gal.label">Gallery</div>
+      <h2 class="section-title" data-i18n="gal.title">Life at IREEN</h2>
+      <p class="section-subtitle" data-i18n="gal.subtitle">A glimpse inside our classrooms, events, culture days, and the journeys of our students.</p>
+    </div>
+
+    <div class="gallery-grid reveal">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=500&q=75" alt="Classroom">
+        <div class="gallery-item-label" data-i18n="gal.1">📚 Classroom</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=500&q=75" alt="Japanese Books">
+        <div class="gallery-item-label" data-i18n="gal.2">🗾 JLPT Preparation</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=500&q=75" alt="Tokyo">
+        <div class="gallery-item-label" data-i18n="gal.3">✈️ Tokyo, Japan</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=75" alt="Students">
+        <div class="gallery-item-label" data-i18n="gal.4">👥 Student Activities</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&q=75" alt="Study">
+        <div class="gallery-item-label" data-i18n="gal.5">🎌 Japanese Culture Day</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1499914485622-a88fac536970?w=500&q=75" alt="Graduation">
+        <div class="gallery-item-label" data-i18n="gal.6">🎓 Graduation</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section id="faq" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="faq.label">FAQ</div>
+      <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
+      <p class="section-subtitle" data-i18n="faq.subtitle">Answers to the most common questions from students and parents considering IREEN.</p>
+    </div>
+
+    <div class="faq-wrap">
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text" data-i18n="faq.q1">How long is each course?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner" data-i18n="faq.a1">Each course (N5, N4, N3) runs for approximately 3 months. Courses include in-class sessions, study materials, weekly assessments, and mock examinations. Students are encouraged to continue to the next level upon successful completion.</div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text" data-i18n="faq.q2">Can complete beginners join IREEN?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner" data-i18n="faq.a2">Absolutely. Our N5 course is specifically designed for students with zero prior knowledge of Japanese. We begin with the very basics — Hiragana and Katakana — and progress systematically at a pace suitable for all learners.</div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text" data-i18n="faq.q3">Do you help with university admission in Japan?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner" data-i18n="faq.a3">Yes. We provide comprehensive support for Japan university admission including university selection, application preparation, document guidance, and pre-departure orientation. Our team has successfully guided over 120 students to universities and language schools across Japan.</div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text" data-i18n="faq.q4">Do you prepare students specifically for JLPT?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner" data-i18n="faq.a4">Yes. JLPT preparation is a core part of our N5, N4, and N3 courses. We conduct regular mock exams, timed practice sessions, and exam technique coaching to ensure students are fully prepared for the official JLPT examinations.</div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text" data-i18n="faq.q5">Do you provide visa guidance?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner" data-i18n="faq.a5">We provide structured guidance throughout the student visa application process including document preparation, application review, and embassy interview coaching. Please note that visa approval is the sole decision of the Embassy of Japan and we cannot guarantee visa outcomes.</div>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <div class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-q-text" data-i18n="faq.q6">What documents are required for admission to IREEN?</span>
+          <div class="faq-icon">+</div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner" data-i18n="faq.a6">For enrollment at IREEN, students typically need: a copy of their National ID or Birth Certificate, passport-size photographs, academic certificates (SSC/HSC or equivalent), and a completed enrollment form. Contact us directly for the most current admission requirements.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRINCIPAL'S MESSAGE ===================== -->
+<section id="principal" class="section-pad">
+  <div class="container">
+    <div class="principal-grid">
+      <div class="principal-image-wrap reveal">
+        <div class="principal-img">
+          <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=500&q=80" alt="MD. Shah Jalal — Principal" loading="lazy">
+        </div>
+        <div class="principal-name-card">
+          <div class="principal-card-name">MD. Shah Jalal</div>
+          <div class="principal-card-role" data-i18n="prin.role">Principal, IREEN Japanese Language Academy</div>
+        </div>
+      </div>
+
+      <div class="principal-content reveal reveal-delay-2">
+        <div class="principal-label" data-i18n="prin.label">Principal's Message</div>
+        <h2 class="principal-title" data-i18n="prin.title">Welcome from the Principal</h2>
+
+        <div class="principal-speech" data-i18n-html="prin.speech">
+          Welcome to IREEN Japanese Language Academy.<br><br>
+          We believe that learning Japanese is more than mastering a language — it is the first step toward a brighter future in Japan. Our mission is to provide disciplined, high-quality education, practical communication skills, and honest guidance so every student can confidently pursue higher education and career opportunities abroad.<br><br>
+          At IREEN, we are committed to creating an inspiring learning environment where dedication, integrity, and excellence shape every student's journey.<br><br>
+          I warmly welcome you to become a part of our academy and begin your path toward success in Japan.
+        </div>
+
+        <div class="principal-signature">
+          <div class="signature-name">MD. Shah Jalal</div>
+          <div class="signature-divider"></div>
+          <div class="signature-role" data-i18n="prin.role">Principal · IREEN Japanese Language Academy</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="text-center reveal">
+      <div class="section-label" data-i18n="con.label">Get in Touch</div>
+      <h2 class="section-title" data-i18n="con.title">Contact &amp; Admission</h2>
+      <p class="section-subtitle" data-i18n="con.subtitle">Ready to begin your Japanese journey? Reach out to us today and we'll guide you through your first steps.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info-list">
+          <div class="contact-info-item reveal">
+            <div class="contact-info-icon">📍</div>
+            <div>
+              <div class="contact-info-label" data-i18n="con.addr.label">Address</div>
+              <div class="contact-info-value" data-i18n-html="con.addr.val">IREEN Japanese Language Academy<br>Dhaka, Bangladesh</div>
+            </div>
+          </div>
+          <div class="contact-info-item reveal reveal-delay-1">
+            <div class="contact-info-icon">📞</div>
+            <div>
+              <div class="contact-info-label" data-i18n="con.phone.label">Phone</div>
+              <div class="contact-info-value" data-i18n="con.phone.val">+880 1XXX-XXXXXX</div>
+            </div>
+          </div>
+          <div class="contact-info-item reveal reveal-delay-2">
+            <div class="contact-info-icon">✉️</div>
+            <div>
+              <div class="contact-info-label" data-i18n="con.email.label">Email</div>
+              <div class="contact-info-value" data-i18n="con.email.val">info@ireenjapanese.com</div>
+            </div>
+          </div>
+          <div class="contact-info-item reveal reveal-delay-3">
+            <div class="contact-info-icon">🕐</div>
+            <div>
+              <div class="contact-info-label" data-i18n="con.hours.label">Office Hours</div>
+              <div class="contact-info-value" data-i18n="con.hours.val">Saturday – Thursday: 9:00 AM – 8:00 PM</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-chat-btns reveal">
+          <a href="https://wa.me/880" class="btn btn-whatsapp" data-i18n="con.wa">
+            💬 WhatsApp
+          </a>
+          <a href="https://m.me/" class="btn btn-messenger" data-i18n="con.msg">
+            📩 Messenger
+          </a>
+        </div>
+
+        <div class="map-wrap reveal" style="margin-top:28px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.8223908025!2d90.27923698271024!3d23.780573010264076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka%2C%20Bangladesh!5e0!3m2!1sen!2s!4v1718000000000!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="IREEN Academy Location"></iframe>
+        </div>
+      </div>
+
+      <div class="contact-form reveal reveal-delay-2">
+        <div class="form-title" data-i18n="form.title">Send Us a Message</div>
+        <form onsubmit="handleForm(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" data-i18n="form.name.label">Full Name *</label>
+              <input type="text" class="form-input" data-i18n-ph="form.name.ph" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" data-i18n="form.phone.label">Phone Number *</label>
+              <input type="tel" class="form-input" data-i18n-ph="form.phone.ph" placeholder="+880 XXXX-XXXXXX" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="form.email.label">Email Address</label>
+            <input type="email" class="form-input" data-i18n-ph="form.email.ph" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="form.course.label">Course Interested In</label>
+            <select class="form-select">
+              <option value="" data-i18n="form.course.opt0">Select a course...</option>
+              <option data-i18n="form.course.opt1">N5 — Beginner (3 Months)</option>
+              <option data-i18n="form.course.opt2">N4 — Intermediate (3 Months)</option>
+              <option data-i18n="form.course.opt3">N3 — Advanced (3 Months)</option>
+              <option data-i18n="form.course.opt4">Study in Japan Guidance</option>
+              <option data-i18n="form.course.opt5">General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="form.msg.label">Your Message</label>
+            <textarea class="form-textarea" data-i18n-ph="form.msg.ph" placeholder="Tell us about your goals or ask any questions..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit" data-i18n="form.submit">
+            ✦ Submit Enrollment Request
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <div class="nav-logo" style="margin-bottom:0;">
+          <div class="nav-logo-icon">語</div>
+          <div class="nav-logo-text">
+            <span class="nav-logo-name" style="font-size:1.1rem;">IREEN</span>
+            <span class="nav-logo-sub">Japanese Language Academy</span>
+          </div>
+        </div>
+        <p data-i18n="foot.about">Your gateway to Japan. We provide world-class Japanese language training and complete study abroad guidance to Bangladeshi students aspiring to build their future in Japan.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn" title="Facebook">f</a>
+          <a href="#" class="social-btn" title="YouTube">▶</a>
+          <a href="#" class="social-btn" title="Instagram">◉</a>
+          <a href="#" class="social-btn" title="WhatsApp">💬</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title" data-i18n="foot.quick">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="#about" data-i18n="foot.l1">About Academy</a></li>
+          <li><a href="#courses" data-i18n="foot.l2">Our Courses</a></li>
+          <li><a href="#japan" data-i18n="foot.l3">Study in Japan</a></li>
+          <li><a href="#facilities" data-i18n="foot.l4">Facilities</a></li>
+          <li><a href="#gallery" data-i18n="foot.l5">Gallery</a></li>
+          <li><a href="#contact" data-i18n="foot.l6">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title" data-i18n="foot.courses">Courses</div>
+        <ul class="footer-links">
+          <li><a href="#courses" data-i18n="foot.c1">JLPT N5 — Beginner</a></li>
+          <li><a href="#courses" data-i18n="foot.c2">JLPT N4 — Intermediate</a></li>
+          <li><a href="#courses" data-i18n="foot.c3">JLPT N3 — Advanced</a></li>
+          <li><a href="#japan" data-i18n="foot.c4">Study in Japan</a></li>
+          <li><a href="#japan" data-i18n="foot.c5">Visa Guidance</a></li>
+          <li><a href="#japan" data-i18n="foot.c6">Scholarship Info</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title" data-i18n="foot.contact">Contact</div>
+        <ul class="footer-links">
+          <li><a href="#" data-i18n="foot.addr">📍 Dhaka, Bangladesh</a></li>
+          <li><a href="tel:+880" data-i18n="foot.phone">📞 +880 1XXX-XXXXXX</a></li>
+          <li><a href="mailto:info@ireenjapanese.com" data-i18n="foot.email">✉️ info@ireenjapanese.com</a></li>
+          <li><a href="#" data-i18n="foot.hours">🕐 Sat–Thu, 9AM–8PM</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="foot.copy">© 2026 IREEN Japanese Language Academy. All Rights Reserved.</p>
+      <div class="footer-bottom-jp" data-i18n="foot.tagline">一緒に日本へ · Together to Japan</div>
+      <p data-i18n="foot.design">Designed with ❤️ for aspiring students</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll to Top -->
+<button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to Top" data-i18n="scrolltop">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
