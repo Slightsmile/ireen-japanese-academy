@@ -159,6 +159,13 @@ section { position: relative; }
 }
 .btn-messenger:hover { background: #0070dd; transform: translateY(-2px); }
 
+.btn-line {
+  background: #06c755;
+  color: white;
+  box-shadow: 0 4px 20px rgba(6,199,85,0.3);
+}
+.btn-line:hover { background: #05ad4a; transform: translateY(-2px); }
+
 /* ===========================
    NAVIGATION
 =========================== */
@@ -329,6 +336,27 @@ section { position: relative; }
   transition: var(--transition);
 }
 .mobile-menu a:hover { color: white; padding-left: 8px; }
+
+.mobile-language {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.mobile-language-label {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.mobile-menu .mobile-lang-switcher {
+  display: flex;
+  background: rgba(255,255,255,0.08);
+}
 
 /* ===========================
    HERO SECTION
@@ -1743,6 +1771,11 @@ section { position: relative; }
   font-size: 18px;
   flex-shrink: 0;
 }
+.contact-info-icon.line-icon {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
 
 .contact-info-label {
   font-size: 0.72rem;
@@ -2007,6 +2040,8 @@ footer {
 @media (max-width: 768px) {
   .section-pad { padding: 70px 0; }
   .nav-links, .lang-switcher, .nav-enroll { display: none; }
+  .mobile-language { display: flex; }
+  .mobile-menu .mobile-lang-switcher { display: flex; }
   .hamburger { display: flex; }
   .why-grid, .courses-grid, .japan-grid, .facilities-grid { grid-template-columns: 1fr; }
   .testimonial-card { width: 100%; }

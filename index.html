@@ -54,6 +54,14 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-language">
+      <span class="mobile-language-label" data-i18n="mobile.language">Language</span>
+      <div class="lang-switcher mobile-lang-switcher" aria-label="Choose language">
+        <button class="lang-btn active" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="bn">বাংলা</button>
+        <button class="lang-btn" type="button" data-lang="jp">日本語</button>
+      </div>
+    </div>
     <a href="#about" onclick="closeMobile()" data-i18n="nav.about">About</a>
     <a href="#courses" onclick="closeMobile()" data-i18n="nav.courses">Courses</a>
     <a href="#japan" onclick="closeMobile()" data-i18n="nav.japan">Study in Japan</a>
@@ -914,17 +922,26 @@
               <div class="contact-info-icon">📞</div>
               <div>
                 <div class="contact-info-label" data-i18n="con.phone.label">Phone</div>
-                <div class="contact-info-value" data-i18n="con.phone.val">+8801782440410</div>
+                <a class="contact-info-value" href="tel:+8801876904543" data-i18n="con.phone.val">+8801876904543</a>
               </div>
             </div>
             <div class="contact-info-item reveal reveal-delay-2">
               <div class="contact-info-icon">✉️</div>
               <div>
                 <div class="contact-info-label" data-i18n="con.email.label">Email</div>
-                <div class="contact-info-value" data-i18n="con.email.val">info@irinjapanese.com</div>
+                <a class="contact-info-value" href="mailto:jalal.sumai@gmail.com"
+                  data-i18n="con.email.val">jalal.sumai@gmail.com</a>
               </div>
             </div>
             <div class="contact-info-item reveal reveal-delay-3">
+              <div class="contact-info-icon line-icon">LINE</div>
+              <div>
+                <div class="contact-info-label" data-i18n="con.line.label">LINE</div>
+                <a class="contact-info-value" href="tel:+8801817594980"
+                  data-i18n="con.line.val">+8801817594980</a>
+              </div>
+            </div>
+            <div class="contact-info-item reveal">
               <div class="contact-info-icon">🕐</div>
               <div>
                 <div class="contact-info-label" data-i18n="con.hours.label">Office Hours</div>
@@ -934,10 +951,15 @@
           </div>
 
           <div class="contact-chat-btns reveal">
-            <a href="https://wa.me/8801782440410" class="btn btn-whatsapp" data-i18n="con.wa">
+            <a href="https://wa.me/8801876904543" class="btn btn-whatsapp" target="_blank"
+              rel="noopener noreferrer" data-i18n="con.wa">
               💬 WhatsApp
             </a>
-            <a href="https://m.me/" class="btn btn-messenger" data-i18n="con.msg">
+            <a href="tel:+8801817594980" class="btn btn-line" data-i18n="con.line">
+              LINE
+            </a>
+            <a href="https://www.facebook.com/shah.jalal.965" class="btn btn-messenger" target="_blank"
+              rel="noopener noreferrer" data-i18n="con.msg">
               📩 Messenger
             </a>
           </div>
@@ -960,7 +982,7 @@
               </div>
               <div class="form-group">
                 <label class="form-label" data-i18n="form.phone.label">Phone Number *</label>
-                <input type="tel" class="form-input" data-i18n-ph="form.phone.ph" placeholder="+8801782440410"
+                <input type="tel" class="form-input" data-i18n-ph="form.phone.ph" placeholder="+8801876904543"
                   required>
               </div>
             </div>
@@ -1008,10 +1030,12 @@
           <p data-i18n="foot.about">Your gateway to Japan. We provide world-class Japanese language training and
             complete study abroad guidance to Bangladeshi students aspiring to build their future in Japan.</p>
           <div class="footer-social">
-            <a href="#" class="social-btn" title="Facebook">f</a>
+            <a href="https://www.facebook.com/shah.jalal.965" class="social-btn" title="Messenger" target="_blank"
+              rel="noopener noreferrer">f</a>
             <a href="#" class="social-btn" title="YouTube">▶</a>
             <a href="#" class="social-btn" title="Instagram">◉</a>
-            <a href="#" class="social-btn" title="WhatsApp">💬</a>
+            <a href="https://wa.me/8801876904543" class="social-btn" title="WhatsApp" target="_blank"
+              rel="noopener noreferrer">💬</a>
           </div>
         </div>
 
@@ -1043,8 +1067,9 @@
           <div class="footer-col-title" data-i18n="foot.contact">Contact</div>
           <ul class="footer-links">
             <li><a href="#" data-i18n="foot.addr">📍 Dhaka, Bangladesh</a></li>
-            <li><a href="tel:+8801782440410" data-i18n="foot.phone">📞 +8801782440410</a></li>
-            <li><a href="mailto:info@irinjapanese.com" data-i18n="foot.email">✉️ info@irinjapanese.com</a></li>
+            <li><a href="tel:+8801876904543" data-i18n="foot.phone">📞 +8801876904543</a></li>
+            <li><a href="mailto:jalal.sumai@gmail.com" data-i18n="foot.email">✉️ jalal.sumai@gmail.com</a></li>
+            <li><a href="tel:+8801817594980" data-i18n="foot.line">LINE: +8801817594980</a></li>
             <li><a href="#" data-i18n="foot.hours">🕐 Sat–Thu, 9AM–8PM</a></li>
           </ul>
         </div>
